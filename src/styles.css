@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.frame {
+  width: 500px;
+  height: 300px;
+  overflow: hidden;
+}
+
+.slider {
+  display: flex;
+  width: auto;
+  position: relative;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.switch-icon {
+  width: 50px;
+}
+
+.image-carousel {
+  display: flex;
+  gap: 10px;
+}
+
+.button-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
